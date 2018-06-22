@@ -14,7 +14,7 @@ import { AngularFireModule } from 'angularfire2';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    SharedModule,
+    SharedModule.forRoot(),
     NgbModule.forRoot(),
     ServiceWorkerModule.register('/ngsw-worker.js', {
       enabled: environment.production

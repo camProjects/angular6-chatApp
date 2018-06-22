@@ -38,12 +38,13 @@ export class ChatService {
   sendMessage(msg: string) {
     const timeStamp = this.getTimeStamp();
     const email = this.user.email;
+    const userName = this.userName;
     this.chatMessages = this.getMessages();
     this.chatMessages.push({
       email: email,
       message: msg,
-      userName: this.userName,
-      timeSent: this.getTimeStamp()
+      userName: userName,
+      timeSent: timeStamp
     });
   }
 
