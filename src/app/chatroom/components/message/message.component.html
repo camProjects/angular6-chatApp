@@ -1,0 +1,11 @@
+<div class="message-container">
+  <div class="message-data">
+    <span class="sender">
+      {{chatMessage.userName}}
+    </span>
+    <span class="time">
+      {{chatMessage.timeSent | date: 'medium'}}
+    </span>
+  </div>
+  <div>{{chatMessage.message}}</div>
+</div>
