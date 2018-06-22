@@ -7,12 +7,14 @@
       "installMode": "prefetch",
       "updateMode": "prefetch",
       "urls": [
+        "/angular6-chatApp/0.49488e7732a9c33f7620.js",
+        "/angular6-chatApp/1.5d75d4d7ed24daaac9f3.js",
         "/angular6-chatApp/favicon.ico",
         "/angular6-chatApp/index.html",
-        "/angular6-chatApp/main.57668a335232675d8ec7.js",
-        "/angular6-chatApp/polyfills.7a0e6866a34e280f48e7.js",
-        "/angular6-chatApp/runtime.a66f828dca56eeb90e02.js",
-        "/angular6-chatApp/styles.1099a3f548e8cfb214d1.css"
+        "/angular6-chatApp/main.4c7d9896ca4aca0527ab.js",
+        "/angular6-chatApp/polyfills.4eaf33024219056eeb7b.js",
+        "/angular6-chatApp/runtime.5dc0c44049a81b7afac3.js",
+        "/angular6-chatApp/styles.b6aba93d15fcbff11efe.css"
       ],
       "patterns": []
     },
@@ -35,6 +37,8 @@
   ],
   "dataGroups": [],
   "hashTable": {
+    "/angular6-chatApp/0.49488e7732a9c33f7620.js": "638da66b746d2f7b3463e89ca08f80263e06f889",
+    "/angular6-chatApp/1.5d75d4d7ed24daaac9f3.js": "bba22f492afb282bdadc7a1ee527badf826b8138",
     "/angular6-chatApp/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
     "/angular6-chatApp/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
     "/angular6-chatApp/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
@@ -44,11 +48,11 @@
     "/angular6-chatApp/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
     "/angular6-chatApp/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
     "/angular6-chatApp/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
-    "/angular6-chatApp/index.html": "03d8de4ea4d6c3253e1d6424ffcfe188a26b4e47",
-    "/angular6-chatApp/main.57668a335232675d8ec7.js": "a700693817b05feec6035c0a0ddbb2063c082855",
-    "/angular6-chatApp/polyfills.7a0e6866a34e280f48e7.js": "9f0b8341c0a0caec1581da2f255eb5dbb8e12303",
-    "/angular6-chatApp/runtime.a66f828dca56eeb90e02.js": "078e320cc6fdaf355836c3b1c52b059cdd33fc7e",
-    "/angular6-chatApp/styles.1099a3f548e8cfb214d1.css": "849742690da31297ecc18ee17ec80b02257e75d7"
+    "/angular6-chatApp/index.html": "197a8750686a6a4ec891e4b9f52cbeed1a2818e2",
+    "/angular6-chatApp/main.4c7d9896ca4aca0527ab.js": "691f6fd3b8f9eeabf60880b33c8d6becc258a524",
+    "/angular6-chatApp/polyfills.4eaf33024219056eeb7b.js": "18662b25bf116963901843d05e92bb589450929d",
+    "/angular6-chatApp/runtime.5dc0c44049a81b7afac3.js": "a51f6b294f79bc749f1d6949797b4ad1b76513d8",
+    "/angular6-chatApp/styles.b6aba93d15fcbff11efe.css": "50eb46f0211a605dc75b3fc681cc33490503ec3c"
   },
   "navigationUrls": [
     {
