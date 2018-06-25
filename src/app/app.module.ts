@@ -16,7 +16,7 @@ import { AngularFireModule } from 'angularfire2';
     AppRoutingModule,
     SharedModule.forRoot(),
     NgbModule.forRoot(),
-    ServiceWorkerModule.register('/ngsw-worker.js', {
+    ServiceWorkerModule.register('./ngsw-worker.js', {
       enabled: environment.production
     }),
     AngularFireModule.initializeApp(environment.firebase)
