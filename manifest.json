@@ -1,9 +1,9 @@
 {
   "name": "angular-chat-app",
-  "short_name": "ChatApp",
+  "short_name": "ChatAppNew",
   "theme_color": "#1976d2",
   "background_color": "#fafafa",
-  "display": "minimal-ui",
+  "display": "standalone",
   "scope": ".",
   "start_url": ".",
   "icons": [
