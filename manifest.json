@@ -1,6 +1,6 @@
 {
   "name": "angular-chat-app",
-  "short_name": "angular-chat-app",
+  "short_name": "ChatApp",
   "theme_color": "#1976d2",
   "background_color": "#fafafa",
   "display": "minimal-ui",
