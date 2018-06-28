@@ -8,9 +8,10 @@ import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
 import { SharedModule } from './shared/shared.module';
 import { AngularFireModule } from 'angularfire2';
+import { HotlistSideMenuComponent } from './hotlist-side-menu/hotlist-side-menu.component';
 
 @NgModule({
-  declarations: [AppComponent],
+  declarations: [AppComponent, HotlistSideMenuComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,

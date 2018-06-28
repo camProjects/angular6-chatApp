@@ -3,7 +3,8 @@ import { Routes, RouterModule } from '@angular/router';
 
 const routes: Routes = [
   { path: 'auth', loadChildren: './auth/auth.module#AuthModule' },
-  { path: 'chat', loadChildren: './chatroom/chatroom.module#ChatroomModule' }
+  { path: '', loadChildren: './chatroom/chatroom.module#ChatroomModule' },
+  { path: '**', redirectTo: 'auth/login' }
 ];
 
 @NgModule({

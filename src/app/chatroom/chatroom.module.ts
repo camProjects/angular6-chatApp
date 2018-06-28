@@ -8,6 +8,7 @@ import { ChatFormComponent } from './components/chat-form/chat-form.component';
 import { FeedComponent } from './components/feed/feed.component';
 import { SharedModule } from '../shared/shared.module';
 import { MessageComponent } from './components/message/message.component';
+import { HeaderComponent } from './components/header/header.component';
 
 @NgModule({
   imports: [CommonModule, ChatroomRoutingModule, SharedModule],
@@ -16,7 +17,8 @@ import { MessageComponent } from './components/message/message.component';
     UserListComponent,
     ChatFormComponent,
     FeedComponent,
-    MessageComponent
+    MessageComponent,
+    HeaderComponent
   ]
 })
 export class ChatroomModule {}
