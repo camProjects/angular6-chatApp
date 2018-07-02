@@ -16,10 +16,16 @@ export class AuthService {
     private afAuth: AngularFireAuth,
     private db: AngularFireDatabase,
     private router: Router
-  ) {}
+  ) {
+    this.user = afAuth.authState;
+  }
 
   getCurrentUserId(): string {
     return (this.authState !== null && this.authState.user.uid) || '';
+  }
+
+  authUser() {
+    return this.user;
   }
 
   login(email: string, password: string) {

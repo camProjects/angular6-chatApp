@@ -6,7 +6,7 @@
     <div class="user-list" [ngClass]="{open : isListOpen}">
       <app-user-list></app-user-list>
     </div>
-    <div class="app-feed">
+    <div class="app-feed" #scroller>
       <app-feed [feed]="feed | async"></app-feed>
     </div>
     <div class="chat-form">

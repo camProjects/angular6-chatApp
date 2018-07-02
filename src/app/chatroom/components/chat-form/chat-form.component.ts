@@ -14,11 +14,13 @@ export class ChatFormComponent implements OnInit {
 
   send() {
     this.sending.emit(this.message);
+    this.message = '';
   }
 
   handelSubmit(event: any) {
     if (event.keyCode === 13) {
       this.sending.emit(event.target.value);
+      this.message = '';
     }
   }
 }
