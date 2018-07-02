@@ -11,9 +11,8 @@ export class AppComponent implements OnInit {
   title = 'app';
   message;
   constructor(
-    private authService: AuthService
-  ) // private msgService: MessagingService
-  {}
+    private authService: AuthService // private msgService: MessagingService
+  ) {}
   logout() {
     this.authService.logout();
   }
