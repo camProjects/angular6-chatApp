@@ -1,7 +1,16 @@
 <div class="chat-container">
-  <app-header></app-header>
-  <div class="chat-wrapper">
-    <app-user-list></app-user-list>
-    <app-feed></app-feed>
+  <div class="app-header">
+    <app-header (toggleList)="isListOpen = !isListOpen"></app-header>
+  </div>
+  <div class="content">
+    <div class="user-list" [ngClass]="{open : isListOpen}">
+      <app-user-list></app-user-list>
+    </div>
+    <div class="app-feed">
+      <app-feed [feed]="feed | async"></app-feed>
+    </div>
+    <div class="chat-form">
+      <app-chat-form (sending)="sendMessage($event)"></app-chat-form>
+    </div>
   </div>
 </div>

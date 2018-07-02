@@ -1,11 +1,18 @@
-<div class="message-container">
-  <div class="message-data">
-    <span class="sender">
-      {{chatMessage.userName}}
-    </span>
-    <span class="time">
-      {{chatMessage.timeSent | date: 'medium'}}
-    </span>
+<div class="message-wrapper">
+  <div class="avatar">
+    <img src="https://cdn.iconscout.com/public/images/icon/free/png-512/avatar-user-business-man-399587fe24739d5a-512x512.png"
+      alt="">
   </div>
-  <div>{{chatMessage.message}}</div>
+  <div class="message">
+    <div class="user">
+      <span class="sender">
+        {{chatMessage.userName}}
+      </span>
+      <span class="time">
+        {{chatMessage.timeSent | date: 'medium'}}
+      </span>
+    </div>
+    <div class="content">{{chatMessage.message}}</div>
+  </div>
+
 </div>

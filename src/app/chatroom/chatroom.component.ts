@@ -10,6 +10,7 @@ import { Observable } from 'rxjs';
 })
 export class ChatroomComponent implements OnInit {
   feed: Observable<ChatMessage[]>;
+  isListOpen = false;
   constructor(private chatService: ChatService) {}
 
   ngOnInit() {
